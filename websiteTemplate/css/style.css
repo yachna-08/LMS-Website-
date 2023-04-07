@@ -38,7 +38,7 @@ body {
 
 
 #mainCarousel .slider_overlay {
-    background: none repeat scroll 0 0 #252333;
+    background: none repeat scroll 0 0 #99aebf;
     height: 100%;
     opacity: 0.8;
     position: absolute;
@@ -81,7 +81,7 @@ body {
 
 #mainCarousel .hero button {
 	margin-top: 30px;
-	background: #42a5f6;
+	background: #0e2e47;
 	font-size: 20px;
 	padding: 10px 20px;
 	outline: none;
@@ -113,13 +113,13 @@ body {
     font-size: 200px;
     margin-right: -100px;
     margin-left: -100px;
-    color: #42a5f6;
+    color: #0e2e47;
 }
 }
 
 #mainCarousel .carousel-indicators .active {
-    background: #42a5f6;
-    border: 1px solid #0781E6; 
+    background: #0e2e47;
+    border: 1px solid #0e2e47; 
 }
 
 
@@ -238,7 +238,7 @@ body {
 
 #about .panel-heading {
      border: none;
-     background-color: #2469A2;
+     background-color: #0e2e47;
      color: #fff;
 }
 
@@ -272,7 +272,7 @@ body {
 #portfolio {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background: #55687C;
+	background: #0e2e47;
 }
 
 #portfolio h2 {
@@ -455,7 +455,7 @@ img {
 	letter-spacing: 1px;
 	font-weight: 600;
 	color: #000;
-	border-bottom: 8px solid #42a5f6;
+	border-bottom: 8px solid #0e2e47;
     display: inline-block;
     margin-bottom: 30px;
     padding-bottom: 15px;
@@ -477,6 +477,7 @@ img {
 	padding: 20px;
 	font-size: 14px;
 	border: 1px solid #000;
+	border-radius: 20px;
 }
 
 ::-webkit-input-placeholder {
@@ -493,12 +494,13 @@ img {
 	padding: 20px;
 	font-size: 14px;
 	border: 1px solid #000;
+	border-radius: 20px;
 }
 
 #contact .contact-form button {
 	margin-top: 20px;
 	padding: 10px 20px;
-	background: #42a5f6;
+	background: #0e2e47;
 	border: none;
 	color: #fff;
 	font-size: 16px;
@@ -536,7 +538,7 @@ img {
 	letter-spacing: 1px;
 	font-weight: 600;
 	color: #000;
-	border-bottom: 8px solid #42a5f6;
+	border-bottom: 8px solid #0e2e47;
     display: inline-block;
     margin-bottom: 30px;
     padding-bottom: 15px;
@@ -553,6 +555,7 @@ img {
 #subscribe .input-group {
     width: 100%;
     margin-top: 30px;
+	
 }
 
 #subscribe input.btn.btn-lg,
@@ -566,6 +569,7 @@ input.btn.btn-lg:focus {
     text-align: left;
     font-size: 16px;
     cursor: auto;
+	background-color: #fff;
 }
 
 #subscribe button.btn {
@@ -573,7 +577,7 @@ input.btn.btn-lg:focus {
     height: 60px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background: #42a5f6;
+    background: #0e2e47;
     outline: none;
     text-transform: uppercase;
 }
@@ -586,7 +590,7 @@ input.btn.btn-lg:focus {
 	margin-top: 20px;
   	width: 100%;
   	height: 60px;
-  	background-color: #1a223d;
+  	background-color: #0e2e47;
   	text-align: center;
 }
 
@@ -606,8 +610,15 @@ input.btn.btn-lg:focus {
 }
 .btn{
 font-size: 70px;
-background-color: #46b0ee;
+background-color: #13185d;
 height: 160%;
 width: 20%;
 color: white;
 }
+
+.reg{
+font-size: 15px;
+}
+
+
+
