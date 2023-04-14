@@ -19,7 +19,7 @@
     // for future reference.
    
     if($conn) {
-        header('location: dashboard.php');
+        header('location: index.php');
     } 
     else {
         die("Error". mysqli_connect_error()); 
